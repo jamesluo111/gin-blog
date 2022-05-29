@@ -1,0 +1,4 @@
+2022/05/16 18:24:32 [err.key:%s, err.Msg:%s state state在0到1之间]
+2022/05/16 18:24:32 [err.key:%s, err.Msg:%s tagId tagId不能小于1]
+2022/05/16 18:28:06 [err.key:state, err.Msg:state在0到1之间]
+2022/05/16 18:28:06 [err.key:tagId, err.Msg:tagId不能小于1]
