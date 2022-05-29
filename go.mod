@@ -59,27 +59,3 @@ require (
 	google.golang.org/protobuf v1.28.0 // indirect
 	gopkg.in/yaml.v2 v2.4.0 // indirect
 )
-
-replace (
-	github.com/jamesluo111/gin-blog/conf => D:/dnmp/wwwroot/gin-blog/pkg/conf
-	github.com/jamesluo111/gin-blog/docs => D:/dnmp/wwwroot/gin-blog/docs
-	github.com/jamesluo111/gin-blog/middleware => D:/dnmp/wwwroot/gin-blog/middleware
-	github.com/jamesluo111/gin-blog/middleware/jwt => D:/dnmp/wwwroot/gin-blog/middleware/jwt
-	github.com/jamesluo111/gin-blog/models => D:/dnmp/wwwroot/gin-blog/models
-	github.com/jamesluo111/gin-blog/pkg/app => D:/dnmp/wwwroot/gin-blog/pkg/app
-	github.com/jamesluo111/gin-blog/pkg/e => D:/dnmp/wwwroot/gin-blog/pkg/e
-	github.com/jamesluo111/gin-blog/pkg/export => D:/dnmp/wwwroot/gin-blog/pkg/export
-	github.com/jamesluo111/gin-blog/pkg/file => D:/dnmp/wwwroot/gin-blog/pkg/file
-	github.com/jamesluo111/gin-blog/pkg/gredis => D:/dnmp/wwwroot/gin-blog/pkg/gredis
-	github.com/jamesluo111/gin-blog/pkg/logging => D:/dnmp/wwwroot/gin-blog/pkg/logging
-	github.com/jamesluo111/gin-blog/pkg/qrcode => D:/dnmp/wwwroot/gin-blog/pkg/qrcode
-	github.com/jamesluo111/gin-blog/pkg/setting => D:/dnmp/wwwroot/gin-blog/pkg/setting
-	github.com/jamesluo111/gin-blog/pkg/upload => D:/dnmp/wwwroot/gin-blog/pkg/upload
-	github.com/jamesluo111/gin-blog/pkg/util => D:/dnmp/wwwroot/gin-blog/pkg/util
-	github.com/jamesluo111/gin-blog/routers => D:/dnmp/wwwroot/gin-blog/routers
-	github.com/jamesluo111/gin-blog/routers/api => D:/dnmp/wwwroot/gin-blog/routers/api
-	github.com/jamesluo111/gin-blog/service/article_service => D:/dnmp/wwwroot/gin-blog/service/article_service
-	github.com/jamesluo111/gin-blog/service/auth_service => D:/dnmp/wwwroot/gin-blog/service/auth_service
-	github.com/jamesluo111/gin-blog/service/cache_service => D:/dnmp/wwwroot/gin-blog/service/cache_service
-	github.com/jamesluo111/gin-blog/service/tag_service => D:/dnmp/wwwroot/gin-blog/service/tag_service
-)
